@@ -15,5 +15,4 @@ RUN chmod +x /usr/src/app/entrypoint.sh
 
 EXPOSE 1433
 #ENTRYPOINT [ "/bin/bash" ]
-CMD /bin/bash 
-#./entrypoint.sh
+CMD /bin/bash ./entrypoint.sh
