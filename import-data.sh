@@ -1,6 +1,5 @@
 #!/bin/bash
 wait_time=20s
-
 #wait for the SQL Server to come up
 
 echo creating resources in $wait_time
