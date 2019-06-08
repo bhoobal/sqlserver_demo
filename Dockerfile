@@ -14,7 +14,5 @@ RUN chmod +x /usr/src/app/import-data.sh
 RUN chmod +x /usr/src/app/entrypoint.sh
 
 EXPOSE 1433
-ENTRYPOINT [ "/bin/bash" ]
-#CMD /bin/bash
-
-# ./entrypoint.sh
+#ENTRYPOINT [ "/bin/bash" ]
+CMD /bin/bash ./entrypoint.sh
