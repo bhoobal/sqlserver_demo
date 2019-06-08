@@ -1,2 +1,3 @@
 # sqlserver_demo
-sql server on linux container- sample
+This is a docker container example of sql sever on linux continer
+
